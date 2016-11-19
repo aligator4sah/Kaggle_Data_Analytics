@@ -164,7 +164,7 @@ def baseline(v):
      model.add(Dense(1, init='normal'))
      # Compile model
      model.compile(loss='mean_absolute_error', optimizer='adam')
-
+     return model
 
 # In[11]:
 
